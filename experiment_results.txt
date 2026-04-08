@@ -1,0 +1,29 @@
+=========================================
+FINAL CROSS-VALIDATION RESULTS
+=========================================
+Configuration: 5-Fold CV, 5 Epochs per fold
+
+Fold 1:
+  Standard ResNet50: 0.8533
+  CBAM ResNet50:     0.8539
+----------------------------------------
+Fold 2:
+  Standard ResNet50: 0.8557
+  CBAM ResNet50:     0.8539
+----------------------------------------
+Fold 3:
+  Standard ResNet50: 0.8539
+  CBAM ResNet50:     0.8668
+----------------------------------------
+Fold 4:
+  Standard ResNet50: 0.8453
+  CBAM ResNet50:     0.8576
+----------------------------------------
+Fold 5:
+  Standard ResNet50: 0.8526
+  CBAM ResNet50:     0.8692
+----------------------------------------
+
+AVERAGE ACCURACY:
+  Standard ResNet50: 0.8522
+  CBAM ResNet50:     0.8603
