@@ -1,4 +1,4 @@
-filename,class_name,bbox_x1,bbox_y1,bbox_x2,bbox_y2,make_id,model_id,viewpoint,maximum_speed,displacement,door_number,seat_number,type
+filename,class_name,bbox_x1,bbox_y1,bbox_x2,bbox_y2,make_id,class_id,viewpoint,maximum_speed,displacement,door_number,seat_number,type
 1/1101/2011/07b90decb92ba6.jpg,ABT ABT A3 2011,124,33,674,480,1,1101,1,0,0.0,0,0,0
 1/1101/2011/2272c7d324cf79.jpg,ABT ABT A3 2011,52,153,849,506,1,1101,4,0,0.0,0,0,0
 1/1101/2011/3a62131af5fe8e.jpg,ABT ABT A3 2011,85,107,682,469,1,1101,4,0,0.0,0,0,0
