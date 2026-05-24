@@ -1,0 +1,139 @@
+============================================================
+PHASE 1 — FULL STATISTICAL ANALYSIS
+============================================================
+
+============================================================
+Dataset: STANFORD
+============================================================
+
+Model                     Top-1    Top-5   Macro-F1
+----------------------------------------------------
+Standard ResNet50        0.8207   0.9551     0.8177
+SE ResNet50              0.8557   0.9676     0.8534
+CBAM ResNet50            0.8585   0.9678     0.8561
+
+Per-fold results:
+  Fold 1:
+    Standard ResNet50    Top-1=0.8115  Top-5=0.9540  F1=0.8098
+    SE ResNet50          Top-1=0.8453  Top-5=0.9681  F1=0.8419
+    CBAM ResNet50        Top-1=0.8600  Top-5=0.9705  F1=0.8552
+  Fold 2:
+    Standard ResNet50    Top-1=0.8201  Top-5=0.9558  F1=0.8189
+    SE ResNet50          Top-1=0.8607  Top-5=0.9632  F1=0.8588
+    CBAM ResNet50        Top-1=0.8656  Top-5=0.9626  F1=0.8641
+  Fold 3:
+    Standard ResNet50    Top-1=0.8189  Top-5=0.9558  F1=0.8159
+    SE ResNet50          Top-1=0.8649  Top-5=0.9718  F1=0.8616
+    CBAM ResNet50        Top-1=0.8791  Top-5=0.9736  F1=0.8775
+  Fold 4:
+    Standard ResNet50    Top-1=0.8287  Top-5=0.9613  F1=0.8257
+    SE ResNet50          Top-1=0.8570  Top-5=0.9730  F1=0.8555
+    CBAM ResNet50        Top-1=0.8557  Top-5=0.9693  F1=0.8529
+  Fold 5:
+    Standard ResNet50    Top-1=0.8188  Top-5=0.9564  F1=0.8159
+    SE ResNet50          Top-1=0.8557  Top-5=0.9668  F1=0.8539
+    CBAM ResNet50        Top-1=0.8532  Top-5=0.9717  F1=0.8512
+  Fold 6:
+    Standard ResNet50    Top-1=0.8207  Top-5=0.9509  F1=0.8184
+    SE ResNet50          Top-1=0.8361  Top-5=0.9626  F1=0.8340
+    CBAM ResNet50        Top-1=0.8514  Top-5=0.9669  F1=0.8505
+  Fold 7:
+    Standard ResNet50    Top-1=0.8257  Top-5=0.9460  F1=0.8247
+    SE ResNet50          Top-1=0.8613  Top-5=0.9718  F1=0.8602
+    CBAM ResNet50        Top-1=0.8471  Top-5=0.9626  F1=0.8458
+  Fold 8:
+    Standard ResNet50    Top-1=0.8042  Top-5=0.9533  F1=0.7990
+    SE ResNet50          Top-1=0.8557  Top-5=0.9619  F1=0.8542
+    CBAM ResNet50        Top-1=0.8600  Top-5=0.9656  F1=0.8586
+  Fold 9:
+    Standard ResNet50    Top-1=0.8220  Top-5=0.9619  F1=0.8167
+    SE ResNet50          Top-1=0.8619  Top-5=0.9693  F1=0.8594
+    CBAM ResNet50        Top-1=0.8729  Top-5=0.9754  F1=0.8700
+  Fold 10:
+    Standard ResNet50    Top-1=0.8360  Top-5=0.9558  F1=0.8324
+    SE ResNet50          Top-1=0.8581  Top-5=0.9674  F1=0.8542
+    CBAM ResNet50        Top-1=0.8397  Top-5=0.9595  F1=0.8354
+
+--- Statistical Analysis (Top-1 Accuracy) ---
+Friedman Test: Statistic=15.2000, p-value=5.0045e-04
+Result: Significant differences found. Running Wilcoxon post-hoc...
+Bonferroni-corrected alpha: 0.0167
+  Std vs SE:   p=1.9531e-03  (Significant)
+  Std vs CBAM: p=1.9531e-03  (Significant)
+  SE vs CBAM:  p=4.9219e-01  (Not Sig)
+
+--- Statistical Analysis (Macro F1-Score) ---
+Friedman Test: Statistic=15.2000, p-value=5.0045e-04
+Result: Significant differences found. Running Wilcoxon post-hoc...
+Bonferroni-corrected alpha: 0.0167
+  Std vs SE:   p=1.9531e-03  (Significant)
+  Std vs CBAM: p=1.9531e-03  (Significant)
+  SE vs CBAM:  p=4.9219e-01  (Not Sig)
+
+============================================================
+Dataset: COMPCARS
+============================================================
+
+Model                     Top-1    Top-5   Macro-F1
+----------------------------------------------------
+Standard ResNet50        0.8689   0.9651     0.8512
+SE ResNet50              0.8980   0.9776     0.8844
+CBAM ResNet50            0.9001   0.9779     0.8879
+
+Per-fold results:
+  Fold 1:
+    Standard ResNet50    Top-1=0.8555  Top-5=0.9632  F1=0.8334
+    SE ResNet50          Top-1=0.8898  Top-5=0.9760  F1=0.8711
+    CBAM ResNet50        Top-1=0.8839  Top-5=0.9750  F1=0.8681
+  Fold 2:
+    Standard ResNet50    Top-1=0.8751  Top-5=0.9613  F1=0.8617
+    SE ResNet50          Top-1=0.9042  Top-5=0.9766  F1=0.8888
+    CBAM ResNet50        Top-1=0.9141  Top-5=0.9803  F1=0.9053
+  Fold 3:
+    Standard ResNet50    Top-1=0.8682  Top-5=0.9691  F1=0.8464
+    SE ResNet50          Top-1=0.9004  Top-5=0.9769  F1=0.8836
+    CBAM ResNet50        Top-1=0.9088  Top-5=0.9810  F1=0.8940
+  Fold 4:
+    Standard ResNet50    Top-1=0.8707  Top-5=0.9613  F1=0.8544
+    SE ResNet50          Top-1=0.9045  Top-5=0.9803  F1=0.8925
+    CBAM ResNet50        Top-1=0.9048  Top-5=0.9766  F1=0.8946
+  Fold 5:
+    Standard ResNet50    Top-1=0.8711  Top-5=0.9716  F1=0.8574
+    SE ResNet50          Top-1=0.8935  Top-5=0.9760  F1=0.8841
+    CBAM ResNet50        Top-1=0.9020  Top-5=0.9794  F1=0.8887
+  Fold 6:
+    Standard ResNet50    Top-1=0.8624  Top-5=0.9644  F1=0.8438
+    SE ResNet50          Top-1=0.8970  Top-5=0.9769  F1=0.8850
+    CBAM ResNet50        Top-1=0.8998  Top-5=0.9757  F1=0.8907
+  Fold 7:
+    Standard ResNet50    Top-1=0.8739  Top-5=0.9644  F1=0.8598
+    SE ResNet50          Top-1=0.9026  Top-5=0.9794  F1=0.8893
+    CBAM ResNet50        Top-1=0.8860  Top-5=0.9756  F1=0.8731
+  Fold 8:
+    Standard ResNet50    Top-1=0.8739  Top-5=0.9700  F1=0.8552
+    SE ResNet50          Top-1=0.9007  Top-5=0.9822  F1=0.8830
+    CBAM ResNet50        Top-1=0.9091  Top-5=0.9835  F1=0.8956
+  Fold 9:
+    Standard ResNet50    Top-1=0.8670  Top-5=0.9622  F1=0.8512
+    SE ResNet50          Top-1=0.8889  Top-5=0.9772  F1=0.8790
+    CBAM ResNet50        Top-1=0.8985  Top-5=0.9756  F1=0.8888
+  Fold 10:
+    Standard ResNet50    Top-1=0.8714  Top-5=0.9635  F1=0.8492
+    SE ResNet50          Top-1=0.8988  Top-5=0.9744  F1=0.8873
+    CBAM ResNet50        Top-1=0.8938  Top-5=0.9760  F1=0.8806
+
+--- Statistical Analysis (Top-1 Accuracy) ---
+Friedman Test: Statistic=15.8000, p-value=3.7074e-04
+Result: Significant differences found. Running Wilcoxon post-hoc...
+Bonferroni-corrected alpha: 0.0167
+  Std vs SE:   p=1.9531e-03  (Significant)
+  Std vs CBAM: p=1.9531e-03  (Significant)
+  SE vs CBAM:  p=3.2031e-01  (Not Sig)
+
+--- Statistical Analysis (Macro F1-Score) ---
+Friedman Test: Statistic=15.8000, p-value=3.7074e-04
+Result: Significant differences found. Running Wilcoxon post-hoc...
+Bonferroni-corrected alpha: 0.0167
+  Std vs SE:   p=1.9531e-03  (Significant)
+  Std vs CBAM: p=1.9531e-03  (Significant)
+  SE vs CBAM:  p=2.7539e-01  (Not Sig)

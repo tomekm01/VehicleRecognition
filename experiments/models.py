@@ -138,21 +138,21 @@ class CBAMBottleneck(Bottleneck):
 
 def create_standard_resnet(num_classes):
     model = ResNet(Bottleneck, [3, 4, 6, 3])
-    weights = ResNet50_Weights.IMAGENET1K_V1
+    weights = ResNet50_Weights.IMAGENET1K_V2
     model.load_state_dict(weights.get_state_dict(), strict=True)
     model.fc = nn.Linear(model.fc.in_features, num_classes)
     return model
 
 def create_se_resnet(num_classes):
     model = ResNet(SEBottleneck, [3, 4, 6, 3])
-    weights = ResNet50_Weights.IMAGENET1K_V1
+    weights = ResNet50_Weights.IMAGENET1K_V2
     model.load_state_dict(weights.get_state_dict(), strict=False)
     model.fc = nn.Linear(model.fc.in_features, num_classes)
     return model
 
 def create_cbam_resnet(num_classes):
     model = ResNet(CBAMBottleneck, [3, 4, 6, 3])
-    weights = ResNet50_Weights.IMAGENET1K_V1
+    weights = ResNet50_Weights.IMAGENET1K_V2
     model.load_state_dict(weights.get_state_dict(), strict=False)
     model.fc = nn.Linear(model.fc.in_features, num_classes)
     return model

@@ -1,0 +1,227 @@
+=== PHASE 2 RESULTS: STANFORD ===
+Config: 5-Fold x2 repeats, 50 epochs, seed=21
+LR base: 1e-05  LR new: 0.001  WD: 0.0001  Warmup: 5
+YOLO model: yolo26s.pt
+
+=======================================================
+Standard ResNet50
+=======================================================
+Fold 1:
+  GT:   Top-1=0.8213  Top-5=0.9509  F1=0.8205
+  YOLO: Top-1=0.7725  Top-5=0.8948  F1=0.7799
+  Drop: Top-1=+0.0488  Top-5=+0.0561  F1=+0.0405
+Fold 2:
+  GT:   Top-1=0.8189  Top-5=0.9527  F1=0.8179
+  YOLO: Top-1=0.7667  Top-5=0.8984  F1=0.7727
+  Drop: Top-1=+0.0522  Top-5=+0.0543  F1=+0.0452
+Fold 3:
+  GT:   Top-1=0.8188  Top-5=0.9519  F1=0.8176
+  YOLO: Top-1=0.7669  Top-5=0.8962  F1=0.7735
+  Drop: Top-1=+0.0519  Top-5=+0.0557  F1=+0.0441
+Fold 4:
+  GT:   Top-1=0.8189  Top-5=0.9535  F1=0.8181
+  YOLO: Top-1=0.7688  Top-5=0.8967  F1=0.7751
+  Drop: Top-1=+0.0501  Top-5=+0.0568  F1=+0.0430
+Fold 5:
+  GT:   Top-1=0.8245  Top-5=0.9527  F1=0.8236
+  YOLO: Top-1=0.7749  Top-5=0.8967  F1=0.7810
+  Drop: Top-1=+0.0496  Top-5=+0.0561  F1=+0.0426
+Fold 6:
+  GT:   Top-1=0.8184  Top-5=0.9514  F1=0.8174
+  YOLO: Top-1=0.7684  Top-5=0.8948  F1=0.7759
+  Drop: Top-1=+0.0500  Top-5=+0.0566  F1=+0.0415
+Fold 7:
+  GT:   Top-1=0.8183  Top-5=0.9524  F1=0.8171
+  YOLO: Top-1=0.7718  Top-5=0.8942  F1=0.7772
+  Drop: Top-1=+0.0465  Top-5=+0.0582  F1=+0.0399
+Fold 8:
+  GT:   Top-1=0.8237  Top-5=0.9531  F1=0.8226
+  YOLO: Top-1=0.7754  Top-5=0.8972  F1=0.7815
+  Drop: Top-1=+0.0483  Top-5=+0.0560  F1=+0.0411
+Fold 9:
+  GT:   Top-1=0.8205  Top-5=0.9529  F1=0.8198
+  YOLO: Top-1=0.7701  Top-5=0.8974  F1=0.7775
+  Drop: Top-1=+0.0505  Top-5=+0.0555  F1=+0.0423
+Fold 10:
+  GT:   Top-1=0.8258  Top-5=0.9520  F1=0.8250
+  YOLO: Top-1=0.7756  Top-5=0.8970  F1=0.7818
+  Drop: Top-1=+0.0501  Top-5=+0.0550  F1=+0.0432
+
+=======================================================
+SE ResNet50
+=======================================================
+Fold 1:
+  GT:   Top-1=0.8574  Top-5=0.9659  F1=0.8561
+  YOLO: Top-1=0.8059  Top-5=0.9091  F1=0.8125
+  Drop: Top-1=+0.0515  Top-5=+0.0568  F1=+0.0436
+Fold 2:
+  GT:   Top-1=0.8546  Top-5=0.9656  F1=0.8531
+  YOLO: Top-1=0.8004  Top-5=0.9085  F1=0.8076
+  Drop: Top-1=+0.0542  Top-5=+0.0571  F1=+0.0455
+Fold 3:
+  GT:   Top-1=0.8541  Top-5=0.9682  F1=0.8531
+  YOLO: Top-1=0.7987  Top-5=0.9123  F1=0.8071
+  Drop: Top-1=+0.0555  Top-5=+0.0558  F1=+0.0460
+Fold 4:
+  GT:   Top-1=0.8562  Top-5=0.9687  F1=0.8550
+  YOLO: Top-1=0.8015  Top-5=0.9112  F1=0.8063
+  Drop: Top-1=+0.0547  Top-5=+0.0575  F1=+0.0487
+Fold 5:
+  GT:   Top-1=0.8593  Top-5=0.9638  F1=0.8587
+  YOLO: Top-1=0.8074  Top-5=0.9061  F1=0.8146
+  Drop: Top-1=+0.0520  Top-5=+0.0577  F1=+0.0441
+Fold 6:
+  GT:   Top-1=0.8576  Top-5=0.9642  F1=0.8568
+  YOLO: Top-1=0.8015  Top-5=0.9085  F1=0.8094
+  Drop: Top-1=+0.0561  Top-5=+0.0557  F1=+0.0474
+Fold 7:
+  GT:   Top-1=0.8525  Top-5=0.9652  F1=0.8515
+  YOLO: Top-1=0.8006  Top-5=0.9097  F1=0.8087
+  Drop: Top-1=+0.0519  Top-5=+0.0555  F1=+0.0428
+Fold 8:
+  GT:   Top-1=0.8574  Top-5=0.9675  F1=0.8566
+  YOLO: Top-1=0.8044  Top-5=0.9082  F1=0.8130
+  Drop: Top-1=+0.0530  Top-5=+0.0593  F1=+0.0436
+Fold 9:
+  GT:   Top-1=0.8575  Top-5=0.9649  F1=0.8563
+  YOLO: Top-1=0.8015  Top-5=0.9090  F1=0.8096
+  Drop: Top-1=+0.0560  Top-5=+0.0560  F1=+0.0467
+Fold 10:
+  GT:   Top-1=0.8606  Top-5=0.9660  F1=0.8594
+  YOLO: Top-1=0.8056  Top-5=0.9088  F1=0.8117
+  Drop: Top-1=+0.0550  Top-5=+0.0572  F1=+0.0478
+
+=======================================================
+CBAM ResNet50
+=======================================================
+Fold 1:
+  GT:   Top-1=0.8000  Top-5=0.9413  F1=0.7992
+  YOLO: Top-1=0.7417  Top-5=0.8853  F1=0.7496
+  Drop: Top-1=+0.0583  Top-5=+0.0560  F1=+0.0496
+Fold 2:
+  GT:   Top-1=0.8627  Top-5=0.9688  F1=0.8619
+  YOLO: Top-1=0.8064  Top-5=0.9103  F1=0.8138
+  Drop: Top-1=+0.0563  Top-5=+0.0585  F1=+0.0481
+Fold 3:
+  GT:   Top-1=0.8683  Top-5=0.9709  F1=0.8671
+  YOLO: Top-1=0.8137  Top-5=0.9149  F1=0.8215
+  Drop: Top-1=+0.0546  Top-5=+0.0560  F1=+0.0456
+Fold 4:
+  GT:   Top-1=0.8687  Top-5=0.9693  F1=0.8681
+  YOLO: Top-1=0.8110  Top-5=0.9111  F1=0.8160
+  Drop: Top-1=+0.0577  Top-5=+0.0582  F1=+0.0520
+Fold 5:
+  GT:   Top-1=0.8657  Top-5=0.9670  F1=0.8638
+  YOLO: Top-1=0.8086  Top-5=0.9105  F1=0.8150
+  Drop: Top-1=+0.0571  Top-5=+0.0566  F1=+0.0489
+Fold 6:
+  GT:   Top-1=0.8598  Top-5=0.9658  F1=0.8588
+  YOLO: Top-1=0.8034  Top-5=0.9081  F1=0.8118
+  Drop: Top-1=+0.0565  Top-5=+0.0577  F1=+0.0469
+Fold 7:
+  GT:   Top-1=0.8322  Top-5=0.9583  F1=0.8307
+  YOLO: Top-1=0.7834  Top-5=0.8993  F1=0.7893
+  Drop: Top-1=+0.0489  Top-5=+0.0591  F1=+0.0414
+Fold 8:
+  GT:   Top-1=0.8564  Top-5=0.9646  F1=0.8558
+  YOLO: Top-1=0.7985  Top-5=0.9066  F1=0.8071
+  Drop: Top-1=+0.0578  Top-5=+0.0580  F1=+0.0487
+Fold 9:
+  GT:   Top-1=0.8616  Top-5=0.9677  F1=0.8603
+  YOLO: Top-1=0.8033  Top-5=0.9095  F1=0.8118
+  Drop: Top-1=+0.0583  Top-5=+0.0582  F1=+0.0486
+Fold 10:
+  GT:   Top-1=0.8421  Top-5=0.9611  F1=0.8409
+  YOLO: Top-1=0.7857  Top-5=0.9055  F1=0.7944
+  Drop: Top-1=+0.0563  Top-5=+0.0556  F1=+0.0465
+
+=======================================================
+AVERAGE SCORES
+=======================================================
+Model                  Cond      Top-1    Top-5   Macro-F1
+---------------------------------------------------------
+Standard ResNet50      GT       0.8209   0.9523     0.8200
+Standard ResNet50      YOLO     0.7711   0.8963     0.7776
+SE ResNet50            GT       0.8567   0.9660     0.8557
+SE ResNet50            YOLO     0.8027   0.9091     0.8100
+CBAM ResNet50          GT       0.8517   0.9635     0.8507
+CBAM ResNet50          YOLO     0.7956   0.9061     0.8030
+
+
+=======================================================
+EXPERIMENT A -GROUND TRUTH TEST SET: 3-MODEL COMPARISON
+=======================================================
+
+--- Experiment A -Ground Truth | Top-1 Accuracy ---
+Friedman: statistic=12.2000, p=2.2429e-03
+Significant -Wilcoxon post-hoc (Bonferroni alpha=0.0167):
+  Std vs SE:   p=1.9531e-03  (Sig)
+  Std vs CBAM: p=9.7656e-03  (Sig)
+  SE vs CBAM:  p=1.0000e+00  (Not Sig)
+
+--- Experiment A -Ground Truth | Macro F1 ---
+Friedman: statistic=12.2000, p=2.2429e-03
+Significant -Wilcoxon post-hoc (Bonferroni alpha=0.0167):
+  Std vs SE:   p=1.9531e-03  (Sig)
+  Std vs CBAM: p=9.7656e-03  (Sig)
+  SE vs CBAM:  p=1.0000e+00  (Not Sig)
+
+
+=======================================================
+EXPERIMENT B -YOLO TEST SET: 3-MODEL COMPARISON
+=======================================================
+
+--- Experiment B -YOLO | Top-1 Accuracy ---
+Friedman: statistic=12.2000, p=2.2429e-03
+Significant -Wilcoxon post-hoc (Bonferroni alpha=0.0167):
+  Std vs SE:   p=1.9531e-03  (Sig)
+  Std vs CBAM: p=1.3672e-02  (Sig)
+  SE vs CBAM:  p=7.6953e-01  (Not Sig)
+
+--- Experiment B -YOLO | Macro F1 ---
+Friedman: statistic=12.2000, p=2.2429e-03
+Significant -Wilcoxon post-hoc (Bonferroni alpha=0.0167):
+  Std vs SE:   p=1.9531e-03  (Sig)
+  Std vs CBAM: p=1.3672e-02  (Sig)
+  SE vs CBAM:  p=7.6953e-01  (Not Sig)
+
+
+=======================================================
+ACCURACY DEGRADATION: GT vs YOLO (per model)
+=======================================================
+
+--- GT vs YOLO | Standard ResNet50 | top1 ---
+  GT   mean: 0.8209  (+/-0.0026)
+  YOLO mean: 0.7711  (+/-0.0033)
+  Mean accuracy drop (GT - YOLO): +0.0498
+  Wilcoxon p=1.9531e-03  (Significant)
+
+--- GT vs YOLO | Standard ResNet50 | f1 ---
+  GT   mean: 0.8200  (+/-0.0027)
+  YOLO mean: 0.7776  (+/-0.0032)
+  Mean accuracy drop (GT - YOLO): +0.0423
+  Wilcoxon p=1.9531e-03  (Significant)
+
+--- GT vs YOLO | SE ResNet50 | top1 ---
+  GT   mean: 0.8567  (+/-0.0023)
+  YOLO mean: 0.8027  (+/-0.0027)
+  Mean accuracy drop (GT - YOLO): +0.0540
+  Wilcoxon p=1.9531e-03  (Significant)
+
+--- GT vs YOLO | SE ResNet50 | f1 ---
+  GT   mean: 0.8557  (+/-0.0024)
+  YOLO mean: 0.8100  (+/-0.0026)
+  Mean accuracy drop (GT - YOLO): +0.0456
+  Wilcoxon p=1.9531e-03  (Significant)
+
+--- GT vs YOLO | CBAM ResNet50 | top1 ---
+  GT   mean: 0.8517  (+/-0.0205)
+  YOLO mean: 0.7956  (+/-0.0203)
+  Mean accuracy drop (GT - YOLO): +0.0562
+  Wilcoxon p=1.9531e-03  (Significant)
+
+--- GT vs YOLO | CBAM ResNet50 | f1 ---
+  GT   mean: 0.8507  (+/-0.0205)
+  YOLO mean: 0.8030  (+/-0.0201)
+  Mean accuracy drop (GT - YOLO): +0.0476
+  Wilcoxon p=1.9531e-03  (Significant)
