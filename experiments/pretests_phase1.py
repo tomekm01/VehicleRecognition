@@ -407,7 +407,7 @@ def write_results(all_runs, best_config, dataset):
 
 def main():
     args = get_config()
-    set_seed(42)
+    set_seed(21)
 
     data_file = f"pretest_data_{args.dataset}.json"
     if os.path.exists(data_file) and os.path.getsize(data_file) > 0:
