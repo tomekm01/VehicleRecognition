@@ -12,6 +12,7 @@ Experiments are conducted on two benchmark datasets - Stanford Cars and CompCars
 
 ## Repository Structure
 
+```
 VehicleRecognition/
 ├── experiments/
 │ ├── models.py # SE-ResNet-50, CBAM-ResNet-50, Standard ResNet-50
@@ -43,6 +44,7 @@ VehicleRecognition/
 │ ├── StanfordCars/
 │ └── CompCars/
 └── .gitignore
+```
 
 ## Datasets
 
